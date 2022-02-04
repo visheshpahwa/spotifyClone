@@ -1,0 +1,83 @@
+body{
+    background-color: #222326;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+nav,footer{
+    color: rgb(40, 42, 44);
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #48d24cab;
+
+}
+.brand img{
+    width: 90px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+ul li{
+    padding: 0px 15px;
+}
+.container{
+     min-height: 70vh;
+     margin: 30px auto;
+     width: 70%;
+     border-radius: 6px ;
+     background-color: burlywood;
+     background-image: url('bgImage.jpg');
+  
+}
+footer{
+    background-color: #48d24cab;
+    height: 70px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222326;
+    flex-direction: column;
+}
+#seekBar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.icons {
+    margin: 8px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    display: flex;
+    width: 50%;
+    /* background-color: blue; */
+    height: 100px;
+    margin: 12px 12px;
+    justify-content: space-between;
+    align-items:center ;
+}
+.songItem img{
+    height: 100px;
+}
+.timeStamp{
+    margin: 23px 0px;
+    cursor: pointer;
+}

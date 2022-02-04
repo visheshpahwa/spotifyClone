@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head> <link rel="stylesheet" href="index.css.css">
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>Your Library</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Punjabi Songs</h1>
+            <div class="songItem">
+                
+                    <img src="coverImage.jpg" alt="1">
+                    <span>We Rollin</span>
+                    <span class="songPlay"><span class="timeStamp">03:19<i id="smallPlay1" class="fas fa-play-circle"></i></span></span>
+                
+            </div>
+            <div class="songItem">
+                
+                    <img src="coverImage2.jpg" alt="1">
+                    <span>All Aces</span>
+                    <span class="songPlay"><span class="timeStamp">03:29<i id="smallPlay2" class="fas fa-play-circle"></i></span></span>
+                
+            </div>
+            <div class="songItem">
+                
+                    <img src="coverImage3.jpg" alt="1">
+                    <span>Ykwim</span>
+                    <span class="songPlay"><span class="timeStamp">03:39<i id="smallPlay3" class="fas fa-play-circle"></i></span></span>
+                
+            </div>
+            <div class="songItem">
+                
+                    <img src="coverImage4.jpg" alt="1">
+                    <span>Fully Loaded</span>
+                    <span class="songPlay"><span class="timeStamp">02:30<i id="smallPlay4" class="fas fa-play-circle"></i></span></span>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <footer>
+        <input type="range" id="seekBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i id="masterPlay" class="fas fa-3x fa-play-circle"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/cb28632bf0.js" crossorigin="anonymous"></script>
+</html>
